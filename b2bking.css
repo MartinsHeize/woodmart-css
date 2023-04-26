@@ -1,0 +1,50 @@
+/* START B2BKing */
+@media screen and (max-width: 920px) {
+	body.woocommerce-account #b2bking_myaccount_offers_container {
+		margin: 0;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 920px) {
+	body.woocommerce-account.woocommerce-offers .wd-my-account-sidebar,
+	body.woocommerce-account.woocommerce-bulkorder .wd-my-account-sidebar,
+	body.woocommerce-account.woocommerce-purchase-list .wd-my-account-sidebar {
+		flex-basis: 30%;
+		max-width: 30%;
+		width: 30%;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	body.woocommerce-account.woocommerce-offers .woocommerce-MyAccount-content,
+	body.woocommerce-account.woocommerce-bulkorder .woocommerce-MyAccount-content,
+	body.woocommerce-account.woocommerce-purchase-list .woocommerce-MyAccount-content {
+		flex-basis: 70%;
+		max-width: 70%;
+		width: 70%;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	body.woocommerce-account #b2bking_myaccount_bulkorder_container {
+		margin: 0;
+		min-width: 487px;
+	}
+
+		body.woocommerce-account.woocommerce-purchase-list .b2bking_bulkorder_form_container_content {
+		padding: 20px 8px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	body.woocommerce-account.woocommerce-purchase-list .b2bking_bulkorder_form_container_bottom_add * {
+		margin: 0;
+	}
+
+	body.woocommerce-account.woocommerce-purchase-list .b2bking_bulkorder_form_container_bottom_add {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+}
+/* END B2BKing */

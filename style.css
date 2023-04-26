@@ -1,0 +1,117 @@
+/***********************/
+/* START Global staff */
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body .container, body .container-fluid {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .my-section {
+        margin-top: 72px!important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body .container, body .container-fluid {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .my-section {
+        margin-top: 72px!important;
+    }
+}
+
+.my-section {
+	margin-top: 96px!important;
+}
+
+
+/* Cookie corder icon reposition */
+@media screen and (max-width: 1024px) {
+    body .cky-revisit-bottom-left {
+        bottom: 10px !important;
+    }
+}
+
+/* END Global staff */
+/*******************/
+
+/************************/
+/* START Cart/Sidecart */
+
+.woocommerce-cart #select2-calc_shipping_country-container {
+	display: flex;
+    align-items: center;
+    height: 100%;
+	white-space: unset;
+}
+
+/* END Cart/Sidecart */
+/********************/
+
+/******************/
+/* START TY-page */
+
+body.woocommerce-order-received h2 {
+	text-transform: inherit;
+    font-size: 24px;
+}
+
+body.woocommerce-order-received  .woocommerce-table--order-details tfoot tr:last-child th {
+	text-transform: inherit;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+    body.woocommerce-order-received h2 {
+        text-transform: inherit;
+        font-size: 20px;
+    }
+}
+
+
+/* END TY-page */
+/**************/
+
+/********************/
+/* START Shop page */
+
+
+/* Change shop filter icon from burger to filter icon */
+body.archive .wd-burger-icon>a:before {
+	font-size: 16px!important;
+    content: "\f118";
+    font-family: "woodmart-font";
+}
+
+/* START Category filter and atribute filter clickable whole width and .count elements aligned in one column */
+body.categories-accordion-on .widget_product_categories .product-categories {
+	padding-right: 4px;
+}
+
+.widget_product_categories .product-categories li a,
+body .wd-filter-list li a {
+	z-index: 9;
+}
+
+body.categories-accordion-on .widget_product_categories,
+body .wd-filter-list {
+	position: relative;
+}
+
+body.categories-accordion-on .widget_product_categories .count{
+	position: absolute;
+	right: 0px;
+}
+
+body .wd-filter-list .count {
+	position: absolute;
+	right: 4px;
+}
+/* END Category filter and atribute filter clickable whole width and .count elements aligned in one column */
+
+/* END Shop page */
+/****************/
