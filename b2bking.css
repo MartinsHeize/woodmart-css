@@ -1,14 +1,16 @@
 /* START B2BKing */
+body .b2bking_myaccount_individual_conversation_bottom {
+    padding-bottom: 10px;
+}
+
 @media screen and (max-width: 920px) {
 	body.woocommerce-account #b2bking_myaccount_offers_container {
 		margin: 0;
 	}
 }
 
-@media screen and (min-width: 769px) and (max-width: 920px) {
-	body.woocommerce-account.woocommerce-offers .wd-my-account-sidebar,
-	body.woocommerce-account.woocommerce-bulkorder .wd-my-account-sidebar,
-	body.woocommerce-account.woocommerce-purchase-list .wd-my-account-sidebar {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	body.woocommerce-account.b2bking_b2b_user .wd-my-account-sidebar {
 		flex-basis: 30%;
 		max-width: 30%;
 		width: 30%;
@@ -16,9 +18,7 @@
 		padding-right: 16px;
 	}
 
-	body.woocommerce-account.woocommerce-offers .woocommerce-MyAccount-content,
-	body.woocommerce-account.woocommerce-bulkorder .woocommerce-MyAccount-content,
-	body.woocommerce-account.woocommerce-purchase-list .woocommerce-MyAccount-content {
+	body.woocommerce-account.b2bking_b2b_user .woocommerce-MyAccount-content {
 		flex-basis: 70%;
 		max-width: 70%;
 		width: 70%;
@@ -31,20 +31,204 @@
 		min-width: 487px;
 	}
 
-		body.woocommerce-account.woocommerce-purchase-list .b2bking_bulkorder_form_container_content {
+		body.woocommerce-account.woocommerce-purchase-lists .b2bking_bulkorder_form_container_content {
 		padding: 20px 8px;
 	}
+
+    body.woocommerce-account .b2bking_bulkorder_form_container_content_line_indigo {
+        padding: 10px 6px;
+    }
+
+    body.woocommerce-account .b2bking_bulkorder_indigo_name,
+    body.woocommerce-account .b2bking_bulkorder_indigo_name:focus,
+    body.woocommerce-account .b2bking_bulkorder_indigo_name:visited {
+        font-size: 14px;
+    }
+
+    body.woocommerce-account img.b2bking_bulkorder_indigo_image.b2bking_bulkorder_cream_image {
+        display: none;
+    }
+
+    body.woocommerce-account .b2bking_bulkorder_indigo_product_container,
+    body.woocommerce-account .b2bking_bulkorder_form_container_content_header_product_indigo {
+        width: 31%;
+    }
+
+    body.woocommerce-account .b2bking_bulkorder_form_container_content_header_qty_indigo {
+        width: 16%;
+    }
+
+    body.woocommerce-account .b2bking_bulkorder_form_container_content_header_subtotal_indigo {
+        width: 25%;
+    }
+
+    body.woocommerce-account .b2bking_cream_input_group {
+        width: 24%;
+    }
+
+    body.woocommerce-account .b2bking_bulkorder_form_container_content_line_subtotal_cream {
+        margin-left: 6px;
+    }
+
+    body.woocommerce-account .b2bking_bulkorder_form_container_cream_filters.b2bking_filters_open {
+        padding: 8px;
+    }
+
+    body.woocommerce-account .b2bking_bulkorder_filter_header {
+        padding: 0 6px 20px 0;
+    }
 }
 
 @media screen and (max-width: 430px) {
-	body.woocommerce-account.woocommerce-purchase-list .b2bking_bulkorder_form_container_bottom_add * {
+	body.woocommerce-account.woocommerce-purchase-lists .b2bking_bulkorder_form_container_bottom_add * {
 		margin: 0;
 	}
 
-	body.woocommerce-account.woocommerce-purchase-list .b2bking_bulkorder_form_container_bottom_add {
+	body.woocommerce-account.woocommerce-purchase-lists .b2bking_bulkorder_form_container_bottom_add {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 8px;
 	}
+
+    #b2bking_myaccount_bulkorder_container .b2bking_bulkorder_form_container_content_line input.b2bking_bulkorder_form_container_content_line_product,
+    .b2bking_bulkorder_form_container_content_line input.b2bking_bulkorder_form_container_content_line_product,
+    #b2bking_myaccount_bulkorder_container .b2bking_bulkorder_form_container_content_line input.b2bking_bulkorder_form_container_content_line_qty,
+    .b2bking_bulkorder_form_container_content_line input.b2bking_bulkorder_form_container_content_line_qty {
+        margin-bottom: 6px;
+        margin-top: 18px;
+    }
+
+    body .b2bking_bulkorder_clear {
+        top: 25px;
+    }
+
+}
+
+body .b2bking_bulkorder_clear {
+	padding: 2px 6px;
+    min-height: 26px;
+    position: absolute;
+    text-transform: math-auto;
+}
+
+@media screen and (max-width: 665px) {
+    button.b2bking_bulkorder_clear {
+        left: 48%;
+    }
+}
+
+
+/* ??????? */
+body.woocommerce-account select#b2bking_bulkorder_searchby_select option {
+	background-color: #646464;
+}
+
+body.woocommerce-account div#b2bking_purchase_lists_table_length {
+	display: none;
+}
+
+html[lang="lv"] body.woocommerce-account .dataTables_empty,
+html[lang="pl-PL"] body.woocommerce-account .dataTables_empty,
+html[lang="ru-RU"] body.woocommerce-account .dataTables_empty {
+	font-size: 0;
+}
+
+html[lang="lv"] body.woocommerce-account .dataTables_empty:before {
+	content: 'Tabulā dati nav pieejami';
+	font-size: 14px;
+}
+
+html[lang="pl-PL"] body.woocommerce-account .dataTables_empty:before {
+	content: 'Dane niedostępne w tabeli';
+	font-size: 14px;
+}
+
+html[lang="ru-RU"] body.woocommerce-account .dataTables_empty:before {
+	content: 'Данные отсутствуют в таблице';
+	font-size: 14px;
+}
+
+html[lang="lv"] body.woocommerce-account div#b2bking_purchase_lists_table_filter label:first-child,
+html[lang="pl-PL"] body.woocommerce-account div#b2bking_purchase_lists_table_filter label:first-child,
+html[lang="ru-RU"] body.woocommerce-account div#b2bking_purchase_lists_table_filter label:first-child {
+	font-size: 0;
+}
+
+html[lang="lv"] body.woocommerce-account div#b2bking_purchase_lists_table_filter label:before {
+	content: 'Meklēt:';
+	font-size: 14px;
+}
+
+html[lang="pl-PL"] body.woocommerce-account div#b2bking_purchase_lists_table_filter label:before {
+	content: 'Szukać:';
+	font-size: 14px;
+}
+
+html[lang="ru-RU"] body.woocommerce-account div#b2bking_purchase_lists_table_filter label:before {
+	content: 'Искать:';
+	font-size: 14px;
+}
+
+html[lang="lv"] body.woocommerce-account .dataTables_wrapper .dataTables_info,
+html[lang="pl-PL"] body.woocommerce-account .dataTables_wrapper .dataTables_info,
+html[lang="ru-RU"] body.woocommerce-account .dataTables_wrapper .dataTables_info {
+	display: none;
+}
+
+html[lang="lv"] body.woocommerce-account .dataTables_wrapper .paginate_button.previous,
+html[lang="lv"] body.woocommerce-account .dataTables_wrapper .paginate_button.next,
+html[lang="pl-PL"] body.woocommerce-account .dataTables_wrapper .paginate_button.previous,
+html[lang="pl-PL"] body.woocommerce-account .dataTables_wrapper .paginate_button.next,
+html[lang="ru-RU"] body.woocommerce-account .dataTables_wrapper .paginate_button.previous,
+html[lang="ru-RU"] body.woocommerce-account .dataTables_wrapper .paginate_button.next {
+	font-size: 0;
+}
+
+html[lang="lv"] body.woocommerce-account .dataTables_wrapper .paginate_button.previous:before {
+	content: 'Atpakaļ';
+	font-size: 14px;
+	min-width: 1.5em;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
+html[lang="lv"] body.woocommerce-account .dataTables_wrapper .paginate_button.next:before {
+	content: 'Tālāk';
+	font-size: 14px;
+	min-width: 1.5em;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
+html[lang="pl-PL"] body.woocommerce-account .dataTables_wrapper .paginate_button.previous:before {
+	content: 'Z powrotem';
+	font-size: 14px;
+	min-width: 1.5em;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
+html[lang="pl-PL"] body.woocommerce-account .dataTables_wrapper .paginate_button.next:before {
+	content: 'Następny';
+	font-size: 14px;
+	min-width: 1.5em;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
+html[lang="ru-RU"] body.woocommerce-account .dataTables_wrapper .paginate_button.previous:before {
+	content: 'Назад';
+	font-size: 14px;
+	min-width: 1.5em;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
+html[lang="ru-RU"] body.woocommerce-account .dataTables_wrapper .paginate_button.next:before {
+	content: 'Следующий';
+	font-size: 14px;
+	min-width: 1.5em;
+    padding: 0.5em 1em;
+    display: inline-block;
 }
 /* END B2BKing */
