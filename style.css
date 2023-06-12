@@ -230,3 +230,13 @@ body .product-labels.labels-rectangular .product-label:not(:last-child) {
 	margin-bottom: 5px;
 }
 /* END Product labels */
+
+/* START Gravity forms */
+body .gform_validation_errors {
+    border-radius: 0!important;
+}
+
+body .gform_validation_errors h2 {
+    font-size: 15px!important;
+}
+/* END Gravity forms */

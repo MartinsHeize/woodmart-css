@@ -1,0 +1,101 @@
+/* START B2B */
+html[lang="lv"] label[for="b2bking_field_10490"],
+html[lang="lv"] label[for="b2bking_field_10491"],
+html[lang="lv"] label[for="b2bking_field_10492"],
+html[lang="lv"] label[for="b2bking_field_10493"],
+html[lang="lv"] label[for="b2bking_field_10494"],
+html[lang="lv"] label[for="b2bking_custom_field_10498"],
+html[lang="lv"] label[for="b2bking_field_10495"],
+html[lang="lv"] label[for="b2bking_field_10496"],
+html[lang="lv"] label[for="b2bking_field_10497"],
+html[lang="cs-CZ"] label[for="b2bking_field_10490"],
+html[lang="cs-CZ"] label[for="b2bking_field_10491"],
+html[lang="cs-CZ"] label[for="b2bking_field_10492"],
+html[lang="cs-CZ"] label[for="b2bking_field_10493"],
+html[lang="cs-CZ"] label[for="b2bking_field_10494"],
+html[lang="cs-CZ"] label[for="b2bking_custom_field_10498"],
+html[lang="cs-CZ"] label[for="b2bking_field_10495"],
+html[lang="cs-CZ"] label[for="b2bking_field_10496"],
+html[lang="cs-CZ"] label[for="b2bking_field_10497"] {
+	font-size: 0;
+}
+
+html[lang="lv"] .b2bking_custom_registration_container label:before,
+html[lang="cs-CZ"] .b2bking_custom_registration_container label:before {
+	font-size: 16px;
+}
+
+html[lang="lv"] label[for="b2bking_field_10490"]:before {
+	content: 'Vārds';
+}
+
+html[lang="lv"] label[for="b2bking_field_10491"]:before {
+	content: 'Uzvārds';
+}
+
+html[lang="lv"] label[for="b2bking_field_10492"]:before {
+	content: 'Uzņēmuma nosaukums';
+}
+
+html[lang="lv"] label[for="b2bking_field_10493"]:before {
+	content: 'Ielas adrese';
+}
+
+html[lang="lv"] label[for="b2bking_field_10494"]:before {
+	content: 'Adreses 2. rindiņa';
+}
+
+html[lang="lv"] label[for="b2bking_custom_field_10498"]:before {
+	content: 'Valsts un reģions';
+}
+
+html[lang="lv"] label[for="b2bking_field_10495"]:before {
+	content: 'Pilsēta';
+}
+
+html[lang="lv"] label[for="b2bking_field_10496"]:before {
+	content: 'Pasta indekss';
+}
+
+html[lang="lv"] label[for="b2bking_field_10497"]:before {
+	content: 'Telefona numurs';
+}
+
+/* cs-CZ */
+
+html[lang="cs-CZ"] label[for="b2bking_field_10490"]:before {
+	content: 'Jméno';
+}
+
+html[lang="cs-CZ"] label[for="b2bking_field_10491"]:before {
+	content: 'Příjmení';
+}
+
+html[lang="cs-CZ"] label[for="b2bking_field_10492"]:before {
+	content: 'Název společnosti';
+}
+
+html[lang="cs-CZ"] label[for="b2bking_field_10493"]:before {
+	content: 'Ulice';
+}
+
+html[lang="cs-CZ"] label[for="b2bking_field_10494"]:before {
+	content: 'Řádek adresy 2';
+}
+
+html[lang="cs-CZ"] label[for="b2bking_custom_field_10498"]:before {
+	content: 'Země a region';
+}
+
+html[lang="cs-CZ"] label[for="b2bking_field_10495"]:before {
+	content: 'Město';
+}
+
+html[lang="cs-CZ"] label[for="b2bking_field_10496"]:before {
+	content: 'PSČ';
+}
+
+html[lang="cs-CZ"] label[for="b2bking_field_10497"]:before {
+	content: 'Telefonní číslo';
+}
+/* END B2B */
