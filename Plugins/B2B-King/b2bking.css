@@ -102,6 +102,17 @@ body .b2bking_myaccount_individual_conversation_bottom {
         top: 25px;
     }
 
+	body .b2bking_bulkorder_form_container_bottom_add button {
+		margin-bottom: 12px;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	body .b2bking_bulkorder_form_container_bottom_add {
+		display: flex;
+		justify-content: space-between;
+	}
+
 }
 
 body .b2bking_bulkorder_clear {
