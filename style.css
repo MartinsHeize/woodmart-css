@@ -240,3 +240,21 @@ body .gform_validation_errors h2 {
     font-size: 15px!important;
 }
 /* END Gravity forms */
+
+/* START Footer */
+
+
+@media screen and (max-width: 430px) {
+	.my-footer-foot {
+		display: flex;
+		flex-direction: column;
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.my-footer-foot .my-separator {
+		display: none;
+	}
+}
+
+/* END Footer */
