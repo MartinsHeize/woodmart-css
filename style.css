@@ -1,6 +1,19 @@
 /***********************/
 /* START Global staff */
 
+/* START Woo string "Addresses" bug fix for lv */
+html[lang="lv"] .woocommerce-MyAccount-navigation-link--edit-address a,
+html[lang="lv"] .edit-address-link a{
+	font-size: 0;
+}
+
+html[lang="lv"] .woocommerce-MyAccount-navigation-link--edit-address a:after,
+html[lang="lv"] .edit-address-link a:after {
+	content: 'Adreses';
+	font-size: 14px;
+}
+/* END Woo string "Addresses" bug fix for lv */
+
 /* START Image galery view button fix */
 body .pswp__button {
 	padding: 0!important;
