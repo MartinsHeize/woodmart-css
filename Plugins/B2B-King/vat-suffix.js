@@ -46,3 +46,15 @@ jQuery(document).ready(function($) {
 });
 
 
+// Translate VAT input field label on my-account profile info page
+$(document).ready(function() {
+    if ($('body').hasClass('woocommerce-account')) {
+      var lang = $('html').attr('lang');
+      
+      if (lang === 'lv') {
+        $('label:contains("VAT")').text('PVN');
+      }
+    }
+});
+
+

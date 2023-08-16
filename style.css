@@ -1,6 +1,17 @@
 /***********************/
 /* START Global staff */
 
+/* START fix container width globaly */
+html .e-con-boxed.wd-section-stretch {
+	--container-max-width: min(calc(var(--wd-container-w)));
+}
+
+body .container {
+	padding-left: 0;
+	padding-right: 0;
+}
+/* END fix container width globaly */
+
 /* START Image galery view button fix */
 body .pswp__button {
 	padding: 0!important;
@@ -77,6 +88,26 @@ body .cky-btn-revisit-wrapper button:hover {
 
 /************************/
 /* START Cart/Sidecart */
+@media screen and (max-width: 430px) {
+	body .wd-shipping-progress-bar.wd-style-bordered .wd-free-progress-bar {
+		padding: 16px;
+		margin-bottom: 34px;
+	}
+	
+	body .wd-shipping-progress-bar.wd-style-bordered .wd-free-progress-bar .progress-msg {
+		font-size: 14px;
+        display: block;
+	}
+}
+
+body.woocommerce-cart table.shop_table :is(tbody,tfoot) th {
+    padding-left: 0;
+}
+
+body.woocommerce-cart .shop_table tr :is(td,th):last-child {
+    padding-right: 0;
+}
+
 body .cart-widget-side .wd-empty-mini-cart .wc-backward {
 	display: flex;
 }
@@ -104,6 +135,12 @@ body.woocommerce-cart .coupon input[type='text'] {
 	height: auto;
 }
 
+@media screen and ( max-width: 769px) {
+    body.woocommerce-cart .coupon input[type='text'] {
+        height: var(--wd-form-height)!important;
+    }
+}
+
 .woocommerce-cart #select2-calc_shipping_country-container {
 	display: flex;
     align-items: center;
@@ -111,7 +148,27 @@ body.woocommerce-cart .coupon input[type='text'] {
 	white-space: unset;
 }
 
+.shopping-cart-widget-footer .wd-progress-bar .progress-msg {
+	display: block;
+}
+
+
 /* END Cart/Sidecart */
+/********************/
+
+/******************/
+/* START checkout-page */
+
+body.woocommerce-checkout .checkout_coupon.woocommerce-form-coupon .input-text {
+	height: 100%;
+}
+
+body .checkout-order-review:before,
+.checkout-order-review:after {
+	display: none;
+}
+
+/* END checkout-page */
 /********************/
 
 /******************/
@@ -181,7 +238,7 @@ body .wd-filter-list .count {
 /* START Product labels */
 body .product-labels.labels-rectangular {
 	top: 6px;
-	z-index: 0;
+	z-index: 99;
 }
 
 body.single-product .woocommerce-product-gallery .product-labels.labels-rectangular {
@@ -240,3 +297,25 @@ body .gform_validation_errors h2 {
     font-size: 15px!important;
 }
 /* END Gravity forms */
+
+/* START Footer */
+.my-separator {
+	margin: 0 6px;
+}
+
+.my-footer-foot a {
+	font-weight: 700!important;
+}
+
+@media screen and (max-width: 430px) {
+	.my-separator {
+		display: none;
+	}
+
+    .my-footer-foot {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+/* END Footer */
