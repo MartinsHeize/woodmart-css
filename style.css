@@ -10,7 +10,20 @@ body .container {
 	padding-left: 0;
 	padding-right: 0;
 }
+
 /* END fix container width globaly */
+/* START Woo string "Addresses" bug fix for lv */
+html[lang="lv"] .woocommerce-MyAccount-navigation-link--edit-address a,
+html[lang="lv"] .edit-address-link a{
+	font-size: 0;
+}
+
+html[lang="lv"] .woocommerce-MyAccount-navigation-link--edit-address a:after,
+html[lang="lv"] .edit-address-link a:after {
+	content: 'Adreses';
+	font-size: 14px;
+}
+/* END Woo string "Addresses" bug fix for lv */
 
 /* START Image galery view button fix */
 body .pswp__button {
@@ -312,9 +325,15 @@ body .gform_validation_errors h2 {
 		display: none;
 	}
 
-    .my-footer-foot {
+	.my-footer-foot {
 		display: flex;
 		flex-direction: column;
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.my-footer-foot .my-separator {
+		display: none;
 	}
 }
 
