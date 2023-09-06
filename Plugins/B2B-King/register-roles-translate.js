@@ -17,6 +17,10 @@ jQuery(document).ready(function($) {
         'ru-RU': {
             'Individual Customer': 'Индивидуальный клиент',
             'B2B (requires approval)': 'B2B (требуется одобрение)'
+        },
+        'cs-CZ': {
+            'Individual Customer': 'Individuální zákazník',
+            'B2B (requires approval)': 'B2B (vyžaduje schválení)'
         }
     };
 

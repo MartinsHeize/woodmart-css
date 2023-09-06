@@ -145,9 +145,13 @@ body.woocommerce-account div#b2bking_purchase_lists_table_length {
 	display: none;
 }
 
+
+
 html[lang="lv"] body.woocommerce-account .dataTables_empty,
 html[lang="pl-PL"] body.woocommerce-account .dataTables_empty,
-html[lang="ru-RU"] body.woocommerce-account .dataTables_empty {
+html[lang="ru-RU"] body.woocommerce-account .dataTables_empty,
+html[lang="cs-CZ"] body.woocommerce-account .dataTables_empty,
+html[lang="de-DE"] body.woocommerce-account .dataTables_empty {
 	font-size: 0;
 }
 
@@ -166,9 +170,21 @@ html[lang="ru-RU"] body.woocommerce-account .dataTables_empty:before {
 	font-size: 14px;
 }
 
+html[lang="cs-CZ"] body.woocommerce-account .dataTables_empty:before {
+	content: 'V tabulce nejsou k dispozici žádné údaje';
+	font-size: 14px;
+}
+
+html[lang="de-DE"] body.woocommerce-account .dataTables_empty:before {
+	content: 'In der Tabelle sind keine Daten verfügbar';
+	font-size: 14px;
+}
+
 html[lang="lv"] body.woocommerce-account div#b2bking_purchase_lists_table_filter label:first-child,
 html[lang="pl-PL"] body.woocommerce-account div#b2bking_purchase_lists_table_filter label:first-child,
-html[lang="ru-RU"] body.woocommerce-account div#b2bking_purchase_lists_table_filter label:first-child {
+html[lang="ru-RU"] body.woocommerce-account div#b2bking_purchase_lists_table_filter label:first-child,
+html[lang="cs-CZ"] body.woocommerce-account div#b2bking_purchase_lists_table_filter label:first-child,
+html[lang="de-DE"] body.woocommerce-account div#b2bking_purchase_lists_table_filter label:first-child {
 	font-size: 0;
 }
 
@@ -187,9 +203,21 @@ html[lang="ru-RU"] body.woocommerce-account div#b2bking_purchase_lists_table_fil
 	font-size: 14px;
 }
 
+html[lang="cs-CZ"] body.woocommerce-account div#b2bking_purchase_lists_table_filter label:before {
+	content: 'Hledat:';
+	font-size: 14px;
+}
+
+html[lang="de-DE"] body.woocommerce-account div#b2bking_purchase_lists_table_filter label:before {
+	content: 'Zu suchen:';
+	font-size: 14px;
+}
+
 html[lang="lv"] body.woocommerce-account .dataTables_wrapper .dataTables_info,
 html[lang="pl-PL"] body.woocommerce-account .dataTables_wrapper .dataTables_info,
-html[lang="ru-RU"] body.woocommerce-account .dataTables_wrapper .dataTables_info {
+html[lang="ru-RU"] body.woocommerce-account .dataTables_wrapper .dataTables_info,
+html[lang="cs-CZ"] body.woocommerce-account .dataTables_wrapper .dataTables_info,
+html[lang="de-DE"] body.woocommerce-account .dataTables_wrapper .dataTables_info {
 	display: none;
 }
 
@@ -198,7 +226,11 @@ html[lang="lv"] body.woocommerce-account .dataTables_wrapper .paginate_button.ne
 html[lang="pl-PL"] body.woocommerce-account .dataTables_wrapper .paginate_button.previous,
 html[lang="pl-PL"] body.woocommerce-account .dataTables_wrapper .paginate_button.next,
 html[lang="ru-RU"] body.woocommerce-account .dataTables_wrapper .paginate_button.previous,
-html[lang="ru-RU"] body.woocommerce-account .dataTables_wrapper .paginate_button.next {
+html[lang="ru-RU"] body.woocommerce-account .dataTables_wrapper .paginate_button.next,
+html[lang="cs-CZ"] body.woocommerce-account .dataTables_wrapper .paginate_button.previous,
+html[lang="cs-CZ"] body.woocommerce-account .dataTables_wrapper .paginate_button.next,
+html[lang="de-DE"] body.woocommerce-account .dataTables_wrapper .paginate_button.previous,
+html[lang="de-DE"] body.woocommerce-account .dataTables_wrapper .paginate_button.next {
 	font-size: 0;
 }
 
@@ -244,6 +276,38 @@ html[lang="ru-RU"] body.woocommerce-account .dataTables_wrapper .paginate_button
 
 html[lang="ru-RU"] body.woocommerce-account .dataTables_wrapper .paginate_button.next:before {
 	content: 'Следующий';
+	font-size: 14px;
+	min-width: 1.5em;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
+html[lang="cs-CZ"] body.woocommerce-account .dataTables_wrapper .paginate_button.previous:before {
+	content: 'Zadní';
+	font-size: 14px;
+	min-width: 1.5em;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
+html[lang="cs-CZ"] body.woocommerce-account .dataTables_wrapper .paginate_button.next:before {
+	content: 'Další';
+	font-size: 14px;
+	min-width: 1.5em;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
+html[lang="de-DE"] body.woocommerce-account .dataTables_wrapper .paginate_button.previous:before {
+	content: 'Zurück';
+	font-size: 14px;
+	min-width: 1.5em;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
+html[lang="de-DE"] body.woocommerce-account .dataTables_wrapper .paginate_button.next:before {
+	content: 'Nächste';
 	font-size: 14px;
 	min-width: 1.5em;
     padding: 0.5em 1em;

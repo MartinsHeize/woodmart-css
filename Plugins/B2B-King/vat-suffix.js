@@ -13,6 +13,10 @@ jQuery(document).ready(function($) {
         'pl-PL': {
             ' inc. VAT': ' z podatkiem VAT',
             ' ex. VAT': ' bez VAT'
+        },
+        'cs-CZ': {
+            ' inc. VAT': ' vč. káď',
+            ' ex. VAT': ' např. káď'
         }
     };
 
@@ -53,6 +57,10 @@ $(document).ready(function() {
       
       if (lang === 'lv') {
         $('label:contains("VAT")').text('PVN');
+      }
+
+      if (lang === 'cs-CZ') {
+        $('label:contains("VAT")').text('Káď');
       }
     }
 });

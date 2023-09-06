@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-    // Check if HTML has lang="lv" attribute
+    // Check if HTML has lang="cs-CZ" attribute
     if ($('html').attr('lang') === 'cs-CZ') {
       
         // Attach click event handler to the button
