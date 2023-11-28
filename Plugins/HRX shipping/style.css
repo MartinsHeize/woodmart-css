@@ -1,0 +1,43 @@
+/* START Css translation hack for HRX shipping label */
+html[lang="lv"] label[for="shipping_method_0_hrx_delivery_terminal"],
+html[lang="ru-RU"] label[for="shipping_method_0_hrx_delivery_terminal"],
+html[lang="sv-SE"] label[for="shipping_method_0_hrx_delivery_terminal"],
+html[lang="et"] label[for="shipping_method_0_hrx_delivery_terminal"],
+html[lang="nl-NL"] label[for="shipping_method_0_hrx_delivery_terminal"],
+html[lang="lt-LT"] label[for="shipping_method_0_hrx_delivery_terminal"] {
+    font-size: 0;
+}
+
+html[lang="lv"] label[for="shipping_method_0_hrx_delivery_terminal"]:before,
+html[lang="ru-RU"] label[for="shipping_method_0_hrx_delivery_terminal"]:before,
+html[lang="sv-SE"] label[for="shipping_method_0_hrx_delivery_terminal"]:before,
+html[lang="et"] label[for="shipping_method_0_hrx_delivery_terminal"]:before,
+html[lang="nl-NL"] label[for="shipping_method_0_hrx_delivery_terminal"]:before,
+html[lang="lt-LT"] label[for="shipping_method_0_hrx_delivery_terminal"]:before {
+    font-size: 16px;
+}
+
+html[lang="lv"] label[for="shipping_method_0_hrx_delivery_terminal"]:before {
+    content: 'Eksprespiegāde, 1-2 darba dienas';
+}
+
+html[lang="ru-RU"] label[for="shipping_method_0_hrx_delivery_terminal"]:before {
+    content: 'Экспресс-доставка, 1-2 рабочих дня.';
+}
+
+html[lang="sv-SE"] label[for="shipping_method_0_hrx_delivery_terminal"]:before {
+    content: 'Expressleverans, 1-2 arbetsdagar';
+}
+
+html[lang="et"] label[for="shipping_method_0_hrx_delivery_terminal"]:before {
+    content: 'Kiire kohaletoimetamine, 1-2 tööpäeva';
+}
+
+html[lang="nl-NL"] label[for="shipping_method_0_hrx_delivery_terminal"]:before {
+    content: 'Spoedlevering, 1-2 werkdagen';
+}
+
+html[lang="lt-LT"] label[for="shipping_method_0_hrx_delivery_terminal"]:before {
+    content: 'Greitas pristatymas, 1-2 darbo dienos';
+}
+/* END Css translation hack for HRX shipping label */

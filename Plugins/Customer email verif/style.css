@@ -1,0 +1,8 @@
+html[lang="lv"] .cev-field .required-filed {
+    font-size: 0;
+}
+
+html[lang="lv"] .cev-field .required-filed:before {
+    content: '4-simbolu kods*';
+    font-size: 16px;
+}

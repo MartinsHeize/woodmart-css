@@ -1,6 +1,31 @@
 /***********************/
 /* START Global staff */
 
+/* START Radio buttons style overwrite */
+body input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* Change img link */
+body input[type="radio"] {
+    height: 13px;
+    width: 13px;
+    background: url(/../wp-content/uploads/2022/12/Ellipse-13.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Change img link */
+body input[type="radio"]:checked {
+    height: 13px;
+    width: 13px;
+    background: url(/../wp-content/uploads/2022/11/Active.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* END Radio buttons style overwrite */
+
 /* START fix container width globaly */
 html .e-con-boxed.wd-section-stretch {
 	--container-max-width: min(calc(var(--wd-container-w)));
@@ -10,8 +35,8 @@ body .container {
 	padding-left: 0;
 	padding-right: 0;
 }
-
 /* END fix container width globaly */
+
 /* START Woo string "Addresses" bug fix for lv */
 html[lang="lv"] .woocommerce-MyAccount-navigation-link--edit-address a,
 html[lang="lv"] .edit-address-link a{
@@ -171,6 +196,10 @@ body.woocommerce-cart .coupon input[type='text'] {
 
 /******************/
 /* START checkout-page */
+body.woocommerce-checkout #legal_or_natural_person_field label {
+    display: none;
+}
+
 
 body.woocommerce-checkout .checkout_coupon.woocommerce-form-coupon .input-text {
 	height: 100%;
