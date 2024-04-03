@@ -1,101 +1,201 @@
-/* START B2B */
-html[lang="lv"] label[for="b2bking_field_10490"],
-html[lang="lv"] label[for="b2bking_field_10491"],
-html[lang="lv"] label[for="b2bking_field_10492"],
-html[lang="lv"] label[for="b2bking_field_10493"],
-html[lang="lv"] label[for="b2bking_field_10494"],
-html[lang="lv"] label[for="b2bking_custom_field_10498"],
-html[lang="lv"] label[for="b2bking_field_10495"],
-html[lang="lv"] label[for="b2bking_field_10496"],
-html[lang="lv"] label[for="b2bking_field_10497"],
-html[lang="cs-CZ"] label[for="b2bking_field_10490"],
-html[lang="cs-CZ"] label[for="b2bking_field_10491"],
-html[lang="cs-CZ"] label[for="b2bking_field_10492"],
-html[lang="cs-CZ"] label[for="b2bking_field_10493"],
-html[lang="cs-CZ"] label[for="b2bking_field_10494"],
-html[lang="cs-CZ"] label[for="b2bking_custom_field_10498"],
-html[lang="cs-CZ"] label[for="b2bking_field_10495"],
-html[lang="cs-CZ"] label[for="b2bking_field_10496"],
-html[lang="cs-CZ"] label[for="b2bking_field_10497"] {
+/* START B2B register form input fields translate */
+html[lang="lv"] label[for="b2bking_field_9052"],
+html[lang="lv"] label[for="b2bking_field_9053"],
+html[lang="lv"] label[for="b2bking_field_9054"],
+html[lang="lv"] label[for="b2bking_field_9055"],
+html[lang="lv"] label[for="b2bking_field_9056"],
+html[lang="lv"] label[for="b2bking_field_9058"],
+html[lang="lv"] label[for="b2bking_field_9057"],
+html[lang="lv"] label[for="b2bking_custom_field_9060"],
+html[lang="lv"] label[for="b2bking_field_9059"],
+
+html[lang="et"] label[for="b2bking_field_9052"],
+html[lang="et"] label[for="b2bking_field_9053"],
+html[lang="et"] label[for="b2bking_field_9054"],
+html[lang="et"] label[for="b2bking_field_9055"],
+html[lang="et"] label[for="b2bking_field_9056"],
+html[lang="et"] label[for="b2bking_field_9058"],
+html[lang="et"] label[for="b2bking_field_9057"],
+html[lang="et"] label[for="b2bking_custom_field_9060"],
+html[lang="et"] label[for="b2bking_field_9059"],
+
+html[lang="lt-LT"] label[for="b2bking_field_9052"],
+html[lang="lt-LT"] label[for="b2bking_field_9053"],
+html[lang="lt-LT"] label[for="b2bking_field_9054"],
+html[lang="lt-LT"] label[for="b2bking_field_9055"],
+html[lang="lt-LT"] label[for="b2bking_field_9056"],
+html[lang="lt-LT"] label[for="b2bking_field_9058"],
+html[lang="lt-LT"] label[for="b2bking_field_9057"],
+html[lang="lt-LT"] label[for="b2bking_custom_field_9060"],
+html[lang="lt-LT"] label[for="b2bking_field_9059"],
+
+html[lang="ru-RU"] label[for="b2bking_field_9052"],
+html[lang="ru-RU"] label[for="b2bking_field_9053"],
+html[lang="ru-RU"] label[for="b2bking_field_9054"],
+html[lang="ru-RU"] label[for="b2bking_field_9055"],
+html[lang="ru-RU"] label[for="b2bking_field_9056"],
+html[lang="ru-RU"] label[for="b2bking_field_9058"],
+html[lang="ru-RU"] label[for="b2bking_field_9057"],
+html[lang="ru-RU"] label[for="b2bking_custom_field_9060"],
+html[lang="ru-RU"] label[for="b2bking_field_9059"] {
 	font-size: 0;
 }
 
 html[lang="lv"] .b2bking_custom_registration_container label:before,
-html[lang="cs-CZ"] .b2bking_custom_registration_container label:before {
-	font-size: 16px;
+html[lang="lt-LT"] .b2bking_custom_registration_container label:before,
+html[lang="et"] .b2bking_custom_registration_container label:before,
+html[lang="ru-RU"] .b2bking_custom_registration_container label:before {
+	font-size: 14px;
 }
-
-html[lang="lv"] label[for="b2bking_field_10490"]:before {
+/* LV */
+/* First name */
+html[lang="lv"] label[for="b2bking_field_9052"]:before {
 	content: 'Vārds';
 }
-
-html[lang="lv"] label[for="b2bking_field_10491"]:before {
+/* Last name */
+html[lang="lv"] label[for="b2bking_field_9053"]:before {
 	content: 'Uzvārds';
 }
-
-html[lang="lv"] label[for="b2bking_field_10492"]:before {
+/* Company name */
+html[lang="lv"] label[for="b2bking_field_9054"]:before {
 	content: 'Uzņēmuma nosaukums';
 }
-
-html[lang="lv"] label[for="b2bking_field_10493"]:before {
+/* Street Address */
+html[lang="lv"] label[for="b2bking_field_9055"]:before {
 	content: 'Ielas adrese';
 }
-
-html[lang="lv"] label[for="b2bking_field_10494"]:before {
+/* Address Line 2 */
+html[lang="lv"] label[for="b2bking_field_9056"]:before {
 	content: 'Adreses 2. rindiņa';
 }
-
-html[lang="lv"] label[for="b2bking_custom_field_10498"]:before {
+/* Country */
+html[lang="lv"] label[for="b2bking_custom_field_9060"]:before {
 	content: 'Valsts un reģions';
 }
-
-html[lang="lv"] label[for="b2bking_field_10495"]:before {
+/* Town / City */
+html[lang="lv"] label[for="b2bking_field_9057"]:before {
 	content: 'Pilsēta';
 }
-
-html[lang="lv"] label[for="b2bking_field_10496"]:before {
+/* Postcode / ZIP */
+html[lang="lv"] label[for="b2bking_field_9058"]:before {
 	content: 'Pasta indekss';
 }
-
-html[lang="lv"] label[for="b2bking_field_10497"]:before {
+/* Phone Number */
+html[lang="lv"] label[for="b2bking_field_9059"]:before {
 	content: 'Telefona numurs';
 }
 
-/* cs-CZ */
-
-html[lang="cs-CZ"] label[for="b2bking_field_10490"]:before {
-	content: 'Jméno';
+/* EE */
+/* First name */
+html[lang="et"] label[for="b2bking_field_9052"]:before {
+	content: 'Eesnimi';
+}
+/* Last name */
+html[lang="et"] label[for="b2bking_field_9053"]:before {
+	content: 'Perekonnanimi';
+}
+/* Company name */
+html[lang="et"] label[for="b2bking_field_9054"]:before {
+	content: 'Ettevõtte nimi';
+}
+/* Street Address */
+html[lang="et"] label[for="b2bking_field_9055"]:before {
+	content: 'Tänava aadress';
+}
+/* Address Line 2 */
+html[lang="et"] label[for="b2bking_field_9056"]:before {
+	content: 'Aadressi rida 2';
+}
+/* Country */
+html[lang="et"] label[for="b2bking_custom_field_9060"]:before {
+	content: 'Riik ja piirkond';
+}
+/* Town / City */
+html[lang="et"] label[for="b2bking_field_9057"]:before {
+	content: 'Linn';
+}
+/* Postcode / ZIP */
+html[lang="et"] label[for="b2bking_field_9058"]:before {
+	content: 'Postiindeks';
+}
+/* Phone Number */
+html[lang="et"] label[for="b2bking_field_9059"]:before {
+	content: 'Telefoninumber';
 }
 
-html[lang="cs-CZ"] label[for="b2bking_field_10491"]:before {
-	content: 'Příjmení';
+/* LT */
+/* First name */
+html[lang="lt-LT"] label[for="b2bking_field_9052"]:before {
+	content: 'Pirmas vardas';
+}
+/* Last name */
+html[lang="lt-LT"] label[for="b2bking_field_9053"]:before {
+	content: 'Pavardė';
+}
+/* Company name */
+html[lang="lt-LT"] label[for="b2bking_field_9054"]:before {
+	content: 'Įmonės pavadinimas';
+}
+/* Street Address */
+html[lang="lt-LT"] label[for="b2bking_field_9055"]:before {
+	content: 'Gatvės adresas';
+}
+/* Address Line 2 */
+html[lang="lt-LT"] label[for="b2bking_field_9056"]:before {
+	content: 'Adreso eilutė 2';
+}
+/* Country */
+html[lang="lt-LT"] label[for="b2bking_custom_field_9060"]:before {
+	content: 'Šalis ir regionas';
+}
+/* Town / City */
+html[lang="lt-LT"] label[for="b2bking_field_9057"]:before {
+	content: 'Miestas';
+}
+/* Postcode / ZIP */
+html[lang="lt-LT"] label[for="b2bking_field_9058"]:before {
+	content: 'Pašto indeksas';
+}
+/* Phone Number */
+html[lang="lt-LT"] label[for="b2bking_field_9059"]:before {
+	content: 'Telefono numeris';
 }
 
-html[lang="cs-CZ"] label[for="b2bking_field_10492"]:before {
-	content: 'Název společnosti';
+/* ru-RU */
+/* First name */
+html[lang="ru-RU"] label[for="b2bking_field_9052"]:before {
+	content: 'Имя';
 }
-
-html[lang="cs-CZ"] label[for="b2bking_field_10493"]:before {
-	content: 'Ulice';
+/* Last name */
+html[lang="ru-RU"] label[for="b2bking_field_9053"]:before {
+	content: 'Фамилия';
 }
-
-html[lang="cs-CZ"] label[for="b2bking_field_10494"]:before {
-	content: 'Řádek adresy 2';
+/* Company name */
+html[lang="ru-RU"] label[for="b2bking_field_9054"]:before {
+	content: 'Название компании';
 }
-
-html[lang="cs-CZ"] label[for="b2bking_custom_field_10498"]:before {
-	content: 'Země a region';
+/* Street Address */
+html[lang="ru-RU"] label[for="b2bking_field_9055"]:before {
+	content: 'Улица';
 }
-
-html[lang="cs-CZ"] label[for="b2bking_field_10495"]:before {
-	content: 'Město';
+/* Address Line 2 */
+html[lang="ru-RU"] label[for="b2bking_field_9056"]:before {
+	content: 'Адресная строка 2';
 }
-
-html[lang="cs-CZ"] label[for="b2bking_field_10496"]:before {
-	content: 'PSČ';
+/* Country */
+html[lang="ru-RU"] label[for="b2bking_custom_field_9060"]:before {
+	content: 'Страна и регион';
 }
-
-html[lang="cs-CZ"] label[for="b2bking_field_10497"]:before {
-	content: 'Telefonní číslo';
+/* Town / City */
+html[lang="ru-RU"] label[for="b2bking_field_9057"]:before {
+	content: 'Город';
 }
-/* END B2B */
+/* Postcode / ZIP */
+html[lang="ru-RU"] label[for="b2bking_field_9058"]:before {
+	content: 'Почтовый индекс';
+}
+/* Phone Number */
+html[lang="ru-RU"] label[for="b2bking_field_9059"]:before {
+	content: 'Номер телефона';
+}
+/* END B2B register form input fields translate */

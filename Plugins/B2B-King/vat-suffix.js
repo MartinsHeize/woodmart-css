@@ -6,6 +6,14 @@ jQuery(document).ready(function($) {
             ' inc. VAT': ' ar PVN',
             ' ex. VAT': ' bez PVN'
         },
+        'lt-LT': {
+            ' inc. VAT': ' + PVM',
+            ' ex. VAT': ' be PVM'
+        },
+        'et': {
+            ' inc. VAT': ' + KM',
+            ' ex. VAT': ' ilma KM'
+        },
         'ru-RU': {
             ' inc. VAT': ' с НДС',
             ' ex. VAT': ' без НДС'
@@ -23,6 +31,7 @@ jQuery(document).ready(function($) {
     // Function to perform the text replacement
     function replaceText() {
         var lang = $('html').attr('lang');
+        
         if (lang in languageReplacements) {
             $('.woocommerce-price-suffix').each(function() {
                 var suffixText = $(this).text();
@@ -51,12 +60,24 @@ jQuery(document).ready(function($) {
 
 
 // Translate VAT input field label on my-account profile info page
-$(document).ready(function() {
+jQuery(document).ready(function($) {
     if ($('body').hasClass('woocommerce-account')) {
       var lang = $('html').attr('lang');
       
       if (lang === 'lv') {
         $('label:contains("VAT")').text('PVN');
+      }
+
+      if (lang === 'lt-LT') {
+        $('label:contains("VAT")').text('PVM');
+      }
+
+      if (lang === 'et') {
+        $('label:contains("VAT")').text('KM');
+      }
+
+      if (lang === 'RU') {
+        $('label:contains("VAT")').text('НДС');
       }
 
       if (lang === 'cs-CZ') {

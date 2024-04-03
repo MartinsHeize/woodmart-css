@@ -10,6 +10,14 @@ jQuery(document).ready(function($) {
             'Individual Customer': 'Individuāls Klients',
             'B2B (requires approval)': 'B2B (nepieciešams apstiprinājums)'
         },
+        'lt-LT': {
+            'Individual Customer': 'Individualus Klientas',
+            'B2B (requires approval)': 'B2B (reikia patvirtinimo)'
+        },
+        'et': {
+            'Individual Customer': 'Individuaalne klient',
+            'B2B (requires approval)': 'B2B (vajalik kinnitus)'
+        },
         'pl-PL': {
             'Individual Customer': 'Klient indywidualny',
             'B2B (requires approval)': 'B2B (wymaga zatwierdzenia)'
